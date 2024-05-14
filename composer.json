@@ -1,0 +1,25 @@
+{
+    "name": "intcore-company/oneart-foundation",
+    "description": "The Command Line Interface for the OneART Architecture",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mark Rady",
+            "email": "mark@intcore.net"
+        },
+        {
+            "name": "intcore",
+            "email": "info@intcore.com"
+        }
+    ],
+    "require": {
+        "illuminate/support" : "^8.0",
+        "illuminate/config" : "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "INTCore\\OneARTFoundation\\": "src/"
+        }
+    }
+}
